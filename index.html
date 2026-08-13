@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Music Playlist App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Playlist Dashboard</h1>
+
+    <input id="filterYear" placeholder="filter by year" />
+    <input id="filterGenre" placeholder="filter by genre" />
+    <input id="filterArtist" placeholder="filter by artist" />
+  </header>
+
+  <main>
+
+    <!-- LEFT: PLAYLIST -->
+    <section id="playlistContainer"></section>
+
+    <!-- CENTER: SONG VIEW -->
+    <section id="player">
+
+      <!-- SONG CARD (ONLY ONE) -->
+      <div id="songCard" class="card"></div>
+
+      <!-- CONTROLS -->
+      <div id="controls">
+        <button id="prevBtn">Prev</button>
+        <button id="playBtn">Play/Pause</button>
+        <button id="nextBtn">Next</button>
+      </div>
+
+      <!-- LYRICS CARD -->
+      <div id="lyricsCard" class="card lyrics-card"></div>
+
+    </section>
+
+    <!-- RIGHT: CHART -->
+    <section id="stats">
+      <h3>Favourite Genre</h3>
+      <canvas id="genreChart"></canvas>
+    </section>
+
+  </main>
+
+  <footer>
+    <p id="statusMessage"></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

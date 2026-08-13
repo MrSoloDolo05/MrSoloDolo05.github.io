@@ -1,0 +1,147 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f5f5f5;
+}
+
+/* ==========================
+   HEADER
+========================== */
+header {
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  background: white;
+  border-bottom: 1px solid #ddd;
+}
+
+/* ==========================
+   MAIN LAYOUT
+========================== */
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 10px;
+}
+
+/* ==========================
+   LEFT: PLAYLIST
+========================== */
+#playlistContainer {
+  width: 25%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background: white;
+  height: 80vh;
+  overflow-y: auto;
+}
+
+#playlistContainer .playlist-item {
+  cursor: pointer;
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+  transition: background 0.2s ease;
+}
+
+#playlistContainer .playlist-item:hover {
+  background: #f0f0f0;
+}
+
+/* ==========================
+   CENTER: PLAYER
+========================== */
+#player {
+  width: 45%;
+  text-align: center;
+}
+
+/* ==========================
+   CARDS (SHARED STYLE)
+========================== */
+.card {
+  background: white;
+  padding: 16px;
+  margin: 10px auto;
+  width: 90%;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* SONG CARD specific */
+#songCard {
+  min-height: 220px;
+}
+
+/* lyrics card styling */
+.lyrics-card {
+  font-style: italic;
+  line-height: 1.5;
+  color: #333;
+  min-height: 100px;
+}
+
+/* album cover */
+.cover {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* ==========================
+   CONTROLS
+========================== */
+#controls {
+  margin: 10px 0;
+}
+
+button {
+  padding: 6px 12px;
+  border: none;
+  background: #333;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #555;
+}
+
+/* ==========================
+   RIGHT: STATS
+========================== */
+#stats {
+  width: 25%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background: white;
+  height: 80vh;
+}
+
+#genreChart {
+  width: 100%;
+  height: 220px;
+  display: block;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+}
+
+/* ==========================
+   RESPONSIVE (important for marks)
+========================== */
+@media (max-width: 900px) {
+  main {
+    flex-direction: column;
+  }
+
+  #playlistContainer,
+  #player,
+  #stats {
+    width: 100%;
+    height: auto;
+  }
+}
