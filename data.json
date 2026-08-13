@@ -11,6 +11,7 @@
     {
       "title": "Sea Anemone",
       "artist": "Jets To Brazil",
+      "album": "Orange Rhyming Dictionary"
       "genre": "indie rock",
       "year": 1998,
       "cover": "jetstobrazil.jpg",
@@ -19,6 +20,7 @@
     {
       "title": "Men's Needs",
       "artist": "The Cribs",
+            "album": "Men's Needs, Women's Needs, Whatever",
       "genre": "indie rock",
       "year": 2007,
       "cover": "Mensneedswomensneedswhatever.jpg",
@@ -27,6 +29,7 @@
     {
       "title": "Alternating Snares For Mikey",
       "artist": "Constrobuz",
+           "album": "Beats Vol. 7" 
       "genre": "electronic",
       "year": 2010,
       "cover": "beats vol 7.jpg",
@@ -35,6 +38,7 @@
     {
       "title": "Betray",
       "artist": "Minor Threat",
+          "album": "Out of Step",
       "genre": "hardcore punk",
       "year": 1983,
       "cover": "minorthreat.jpg",
@@ -43,6 +47,7 @@
     {
       "title": "Roman Candle",
       "artist": "Elliott Smith",
+            "album": "Roman Candle",
       "genre": "indie folk",
       "year": 1994,
       "cover": "Elliottsmithromancandle.jpeg",
@@ -51,6 +56,7 @@
     {
       "title": "Creep",
       "artist": "Stone Temple Pilots",
+            "album": "Core",
       "genre": "grunge",
       "year": 1992,
       "cover": "stonetemplepilots.jpg",
@@ -59,6 +65,7 @@
     {
       "title": "No Surprises",
       "artist": "Radiohead",
+            "album": "OK Computer",
       "genre": "alternative rock",
       "year": 1997,
       "cover": "okcomputer.jpg",
@@ -67,6 +74,7 @@
     {
       "title": "1937 State Park",
       "artist": "Car Seat Headrest",
+            "album": "Teens of Denial",
       "genre": "indie rock",
       "year": 2015,
       "cover": "csh.jpg",
@@ -75,6 +83,7 @@
     {
       "title": "Hurley",
       "artist": "Pinback",
+            "album": "Pinback",
       "genre": "indie rock",
       "year": 2007,
       "cover": "Pinbackcover.jpg",
@@ -83,6 +92,7 @@
     {
       "title": "Fit but You Know It",
       "artist": "The Streets",
+            "album": "A Grand Don't Come for Free",
       "genre": "uk garage",
       "year": 2004,
       "cover": "thestreets.jpg",
@@ -91,6 +101,7 @@
     {
       "title": "Everything's Good",
       "artist": "Chance the Rapper",
+            "album": "Acid Rap",
       "genre": "hip hop",
       "year": 2013,
       "cover": "chnace.jpg",
@@ -99,6 +110,7 @@
     {
       "title": "Izzo (H.O.V.A.)",
       "artist": "JAY-Z",
+            "album": "The Blueprint",
       "genre": "hip hop",
       "year": 2001,
       "cover": "jayz.png",
@@ -107,6 +119,7 @@
     {
       "title": "Memory Loss",
       "artist": "Deltron 3000",
+            "album": "Deltron 3030",
       "genre": "alternative hip hop",
       "year": 2000,
       "cover": "Deltron_3030_(album_cover).jpg",
@@ -115,6 +128,7 @@
     {
       "title": "Two Can Win",
       "artist": "J Dilla",
+            "album": "Donuts",
       "genre": "instrumental hip hop",
       "year": 2006,
       "cover": "donuts.jpg",
@@ -123,6 +137,7 @@
     {
       "title": "Barry Bonds",
       "artist": "Kanye West",
+         "album": "Graduation",
       "genre": "hip hop",
       "year": 2007,
       "cover": "ye.jpg",
@@ -131,6 +146,7 @@
     {
       "title": "Kids See Ghosts",
       "artist": "Kids See Ghosts",
+            "album": "Kids See Ghosts",
       "genre": "hip hop",
       "year": 2018,
       "cover": "Kids_See_Ghosts_Cover.png",
@@ -139,6 +155,7 @@
     {
       "title": "Fancy Clown",
       "artist": "Madvillain",
+            "album": "Madvillainy",
       "genre": "hip hop",
       "year": 2004,
       "cover": "mfdoom.jpg",
@@ -147,6 +164,7 @@
     {
       "title": "Up Up & Away",
       "artist": "Kid Cudi",
+            "album": "Man on the Moon: The End of Day",
       "genre": "alternative hip hop",
       "year": 2009,
       "cover": "manonthemoon.jpg",
@@ -155,6 +173,7 @@
     {
       "title": "Why's this dealer?",
       "artist": "Niko B",
+         "album": "Why's this dealer? - Single",
       "genre": "indie rap",
       "year": 2020,
       "cover": "nikob.jpg",
