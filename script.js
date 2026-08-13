@@ -79,11 +79,13 @@ function renderPlaylist(list) {
 function renderSong(song) {
   const card = document.getElementById("songCard");
 
-  // SONG INFO CARD
+  // SONG INFO CARD - with image error handling
   card.innerHTML = `
-    <img src="${song.cover}" class="cover" />
+    <img src="${song.cover}" class="cover" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+    <div class="cover-placeholder" style="display: none;">${song.album || song.title}<br>Album Cover</div>
     <h2>${song.title}</h2>
     <p><b>Artist:</b> ${song.artist}</p>
+    <p><b>Album:</b> ${song.album || 'Unknown'}</p>
     <p><b>Genre:</b> ${song.genre}</p>
     <p><b>Year:</b> ${song.year}</p>
   `;
