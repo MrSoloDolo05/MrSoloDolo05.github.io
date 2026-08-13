@@ -81,7 +81,7 @@ function renderSong(song) {
 
   // SONG INFO CARD - with image error handling
   card.innerHTML = `
-    <img src="${song.cover}" class="cover" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+    <img src="./${song.cover}" class="cover" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
     <div class="cover-placeholder" style="display: none;">${song.album || song.title}<br>Album Cover</div>
     <h2>${song.title}</h2>
     <p><b>Artist:</b> ${song.artist}</p>
